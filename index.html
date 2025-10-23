@@ -40,20 +40,20 @@
         <h4 class="card-title">Harga Modal</h4>
         <div id="modal-rows" class="modal-rows"></div>
         <div class="row-actions">
-          <button id="btn-add-row" class="btn ghost" aria-label="Tambah baris modal">+ Tambah Baris</button>
           <div class="modal-total">Total Modal <strong id="total-modal">Rp 0</strong></div>
+          <button id="btn-add-row" class="btn ghost" aria-label="Tambah baris modal">+ Tambah Baris</button>
         </div>
       </div>
 
       <div class="card">
         <h4 class="card-title">Harga Jual</h4>
         <div class="form-row">
-          <label>Jumlah Barang
+          <label>Harga Jual per Produk
             <input type="number" id="harga-jual" inputmode="numeric" min="0" aria-label="Harga jual per unit" />
           </label>
         </div>
         <div class="form-row">
-          <label>Harga Jual
+          <label>Jumlah Produk Terjual
             <input type="number" id="jumlah-jual" inputmode="numeric" min="0" aria-label="Jumlah jual" />
           </label>
         </div>
@@ -63,17 +63,17 @@
       </div>
 
       <div class="card result-card" id="harga-result" aria-live="polite" hidden>
-        <h3 class="card-title">Ringkasan Perhitungan</h3>
+        <h3 class="card-title">Kesimpulan</h3>
         <div class="summary">
           <div>Total Modal : <span id="res-total-modal">Rp 0</span></div>
           <div>Total Jual : <span id="res-total-jual">Rp 0</span></div>
           <div>Keuntungan : <span id="res-profit">Rp 0</span></div>
-          <div>Keuntungan per Produk: <span id="res-profit-unit">—</span></div>
+          <div>Keuntungan per Produk : <span id="res-profit-unit">—</span></div>
         </div>
       </div>
 
       <div class="actions-bottom">
-        <button id="btn-hitung-harga" class="btn primary" aria-label="Hitung keuntungan">Hitung</button>
+        <button id="btn-hitung-harga" class="btn primary" aria-label="Hitung keuntungan">Hitung Keuntungan</button>
       </div>
     </section>
   </main>
@@ -92,7 +92,7 @@
         <div class="receipt-total"><strong>Total Bayar</strong><strong id="receipt-total">Rp 0</strong></div>
       </div>
       <footer class="modal-footer">
-        <button id="reset-order" class="btn ghost" aria-label="Reset pesanan">Reset Pesanan</button>
+        <button id="reset-order" class="btn ghost" aria-label="Reset pesanan">Bersihkan</button>
         <button id="close-modal-2" class="btn primary" aria-label="Tutup">Tutup</button>
       </footer>
     </div>
