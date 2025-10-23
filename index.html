@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kalkulator Pesanan & Harga — Agen Alamanda</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <h1>🛖 Agen Alamanda</h1>
+    </div>
+    <p class="subtitle">Kalkulasi pesanan sat set tanpa pusing 🤯</p>
+  </header>
+
+  <main>
+    <!-- MENU 1: Kalkulator Pesanan -->
+    <section id="menu-pesanan" class="menu active" aria-labelledby="title-pesanan">
+      <h2 id="title-pesanan" class="section-title">Kalkulator Pesanan</h2>
+      <div id="items-grid" class="grid"></div>
+
+      <!-- Sticky footer for Menu 1 -->
+      <footer class="sticky-footer" id="footer-pesanan" aria-live="polite">
+        <div class="footer-left">
+          <div class="label">Total Bayar</div>
+          <div id="total-bayar" class="total-amount">Rp 0</div>
+        </div>
+        <div class="footer-right">
+          <button id="btn-hitung-struk" class="btn primary" aria-label="Tampilkan struk" disabled>Hitung Sekarang</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- MENU 2: Kalkulator Harga -->
+    <section id="menu-harga" class="menu" aria-labelledby="title-harga">
+      <h2 id="title-harga" class="section-title">Kalkulator Harga</h2>
+
+      <div class="card">
+        <h4 class="card-title">Harga Modal</h4>
+        <div id="modal-rows" class="modal-rows"></div>
+        <div class="row-actions">
+          <button id="btn-add-row" class="btn ghost" aria-label="Tambah baris modal">+ Tambah Baris</button>
+          <div class="modal-total">Total Modal <strong id="total-modal">Rp 0</strong></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h4 class="card-title">Harga Jual</h4>
+        <div class="form-row">
+          <label>Jumlah Barang
+            <input type="number" id="harga-jual" inputmode="numeric" min="0" aria-label="Harga jual per unit" />
+          </label>
+        </div>
+        <div class="form-row">
+          <label>Harga Jual
+            <input type="number" id="jumlah-jual" inputmode="numeric" min="0" aria-label="Jumlah jual" />
+          </label>
+        </div>
+        <div class="form-row">
+          <div>Total Jual <strong id="total-jual">Rp 0</strong></div>
+        </div>
+      </div>
+
+      <div class="card result-card" id="harga-result" aria-live="polite" hidden>
+        <h3 class="card-title">Ringkasan Perhitungan</h3>
+        <div class="summary">
+          <div>Total Modal : <span id="res-total-modal">Rp 0</span></div>
+          <div>Total Jual : <span id="res-total-jual">Rp 0</span></div>
+          <div>Keuntungan : <span id="res-profit">Rp 0</span></div>
+          <div>Keuntungan per Produk: <span id="res-profit-unit">—</span></div>
+        </div>
+      </div>
+
+      <div class="actions-bottom">
+        <button id="btn-hitung-harga" class="btn primary" aria-label="Hitung keuntungan">Hitung</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal / Struk (overlay default menyembunyikan via inline style) -->
+  <div id="overlay" class="overlay" style="display:none;">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <header class="modal-header">
+        <h3 id="modal-title">Struk Pesanan</h3>
+        <button id="close-modal" class="icon-btn" aria-label="Tutup struk">
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#333" d="M18.3 5.71L12 12l6.3 6.29-1.41 1.42L10.59 13.4 4.3 19.71 2.89 18.3 9.18 12 2.89 5.71 4.3 4.29 10.59 10.6 16.88 4.29z"/></svg>
+        </button>
+      </header>
+      <div class="modal-body" id="modal-body">
+        <div id="receipt-list"></div>
+        <div class="receipt-total"><strong>Total Bayar</strong><strong id="receipt-total">Rp 0</strong></div>
+      </div>
+      <footer class="modal-footer">
+        <button id="reset-order" class="btn ghost" aria-label="Reset pesanan">Reset Pesanan</button>
+        <button id="close-modal-2" class="btn primary" aria-label="Tutup">Tutup</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Floating Action Button (FAB) -->
+  <button id="fab" class="fab" aria-label="Kalkulator Harga" title="Kalkulator Harga">
+    <span id="fab-icon" class="fab-icon" aria-hidden="true">
+      <!-- calculator icon -->
+      <svg viewBox="0 0 24 24" width="22" height="22"><path fill="#fff" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm2 4h6v2H9V6zm0 4h2v2H9v-2zm4 0h2v2h-2v-2zM9 16h2v2H9v-2zm4 0h2v2h-2v-2z"/></svg>
+    </span>
+    <span id="fab-tooltip" class="fab-tooltip">Kalkulator Harga</span>
+  </button>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
