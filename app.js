@@ -72,6 +72,60 @@ const MENU_ITEMS = [
     price: 9000,
     image: "./assets/malkist.png",
   },
+  {
+    id: "nextar",
+    name: "Nextar",
+    price: 17000,
+    image: "./assets/nextar.png",
+  },
+  {
+    id: "chocolate-pie",
+    name: "Chocolate Pie",
+    price: 20000,
+    image: "./assets/chocolate-pie.png",
+  },
+  {
+    id: "nabati-wafer",
+    name: "Nabati Wafer",
+    price: 17000,
+    image: "./assets/nabati-wafer.png",
+  },
+  {
+    id: "nabati-wafer-mini",
+    name: "Nabati Wafer Mini",
+    price: 8500,
+    image: "./assets/nabati-wafer-mini.png",
+  },
+  {
+    id: "nabati-rolls",
+    name: "Nabati Rolls",
+    price: 17000,
+    image: "./assets/nabati-rolls.png",
+  },
+  {
+    id: "nabati-pasta",
+    name: "Nabati Pasta",
+    price: 13000,
+    image: "./assets/nabati-pasta.png",
+  },
+  {
+    id: "nabati-grande",
+    name: "Nabati Grande",
+    price: 8500,
+    image: "./assets/nabati-grande.png",
+  },
+  {
+    id: "choco-chips",
+    name: "Choco Chips",
+    price: 9000,
+    image: "./assets/choco-chips.png",
+  },
+  {
+    id: "sereal-2in1",
+    name: "Sereal 2in1",
+    price: 18000,
+    image: "./assets/sereal-2in1.png",
+  },
 ];
 
 // Formatter Rupiah
