@@ -31,6 +31,12 @@ const MENU_ITEMS = [
     image: "./assets/brownies-crispy.png",
   },
   {
+    id: "chimi",
+    name: "Chimi",
+    price: 18000,
+    image: "./assets/chimi.png",
+  },
+  {
     id: "beng-beng",
     name: "Beng-Beng",
     price: 38000,
