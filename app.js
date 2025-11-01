@@ -55,12 +55,6 @@ const MENU_ITEMS = [
     image: "./assets/beng-beng.png",
   },
   {
-    id: "better",
-    name: "Better",
-    price: 17000,
-    image: "./assets/better.png",
-  },
-  {
     id: "fruta-gummy",
     name: "Fruta Gummy",
     price: 18000,
