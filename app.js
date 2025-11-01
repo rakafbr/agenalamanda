@@ -19,10 +19,22 @@ const MENU_ITEMS = [
     image: "./assets/plastik.png",
   },
   {
+    id: "gula",
+    name: "Gula",
+    price: 17500,
+    image: "./assets/gula.png",
+  },
+  {
     id: "indomilk",
     name: "Indomilk",
     price: 15000,
     image: "./assets/indomilk.png",
+  },
+  {
+    id: "milo",
+    name: "Milo",
+    price: 19000,
+    image: "./assets/milo.png",
   },
   {
     id: "brownies-crispy",
@@ -49,12 +61,6 @@ const MENU_ITEMS = [
     image: "./assets/better.png",
   },
   {
-    id: "astor",
-    name: "Astor",
-    price: 17000,
-    image: "./assets/astor.png",
-  },
-  {
     id: "fruta-gummy",
     name: "Fruta Gummy",
     price: 18000,
@@ -71,12 +77,6 @@ const MENU_ITEMS = [
     name: "Permen Kopiko",
     price: 10000,
     image: "./assets/permen-kopiko.png",
-  },
-  {
-    id: "malkist",
-    name: "Malkist",
-    price: 9000,
-    image: "./assets/malkist.png",
   },
   {
     id: "nextar",
@@ -115,10 +115,10 @@ const MENU_ITEMS = [
     image: "./assets/nabati-pasta.png",
   },
   {
-    id: "nabati-grande",
-    name: "Nabati Grande",
-    price: 8500,
-    image: "./assets/nabati-grande.png",
+    id: "time-break",
+    name: "Time Break",
+    price: 17000,
+    image: "./assets/time-break.png",
   },
   {
     id: "choco-chips",
