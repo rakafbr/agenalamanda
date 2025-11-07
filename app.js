@@ -99,7 +99,7 @@ const MENU_ITEMS = [
   {
     id: "nabati-rolls",
     name: "Nabati Rolls",
-    price: 17000,
+    price: 9000,
     image: "./assets/nabati-rolls.png",
   },
   {
