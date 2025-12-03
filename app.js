@@ -19,12 +19,6 @@ const MENU_ITEMS = [
     image: "./assets/plastik.png",
   },
   {
-    id: "gula",
-    name: "Gula",
-    price: 17500,
-    image: "./assets/gula.png",
-  },
-  {
     id: "indomilk",
     name: "Indomilk",
     price: 15000,
@@ -35,6 +29,54 @@ const MENU_ITEMS = [
     name: "Milo",
     price: 19000,
     image: "./assets/milo.png",
+  },
+  {
+    id: "gula",
+    name: "Gula",
+    price: 17500,
+    image: "./assets/gula.png",
+  },
+  {
+    id: "sereal-2in1",
+    name: "Sereal 2in1",
+    price: 18000,
+    image: "./assets/sereal-2in1.png",
+  },
+  {
+    id: "choco-chips",
+    name: "Choco Chips",
+    price: 9000,
+    image: "./assets/choco-chips.png",
+  },
+  {
+    id: "chocolate-pie",
+    name: "Chocolate Pie",
+    price: 20000,
+    image: "./assets/chocolate-pie.png",
+  },
+  {
+    id: "nextar",
+    name: "Nextar",
+    price: 20000,
+    image: "./assets/nextar.png",
+  },
+  {
+    id: "nabati-wafer",
+    name: "Nabati Wafer",
+    price: 17000,
+    image: "./assets/nabati-wafer.png",
+  },
+  {
+    id: "nabati-pasta",
+    name: "Nabati Pasta",
+    price: 13000,
+    image: "./assets/nabati-pasta.png",
+  },
+  {
+    id: "nabati-rolls",
+    name: "Nabati Rolls",
+    price: 9000,
+    image: "./assets/nabati-rolls.png",
   },
   {
     id: "brownies-crispy",
@@ -55,6 +97,18 @@ const MENU_ITEMS = [
     image: "./assets/beng-beng.png",
   },
   {
+    id: "better",
+    name: "Better",
+    price: 16000,
+    image: "./assets/better.png",
+  },
+  {
+    id: "malkits",
+    name: "Malkist",
+    price: 9000,
+    image: "./assets/malkist.png",
+  },
+  {
     id: "fruta-gummy",
     name: "Fruta Gummy",
     price: 18000,
@@ -73,58 +127,10 @@ const MENU_ITEMS = [
     image: "./assets/permen-kopiko.png",
   },
   {
-    id: "nextar",
-    name: "Nextar",
-    price: 17000,
-    image: "./assets/nextar.png",
-  },
-  {
-    id: "chocolate-pie",
-    name: "Chocolate Pie",
+    id: "amo-spark",
+    name: "Amo Spark",
     price: 20000,
-    image: "./assets/chocolate-pie.png",
-  },
-  {
-    id: "nabati-wafer",
-    name: "Nabati Wafer",
-    price: 17000,
-    image: "./assets/nabati-wafer.png",
-  },
-  {
-    id: "nabati-wafer-mini",
-    name: "Nabati Wafer Mini",
-    price: 8500,
-    image: "./assets/nabati-wafer-mini.png",
-  },
-  {
-    id: "nabati-rolls",
-    name: "Nabati Rolls",
-    price: 9000,
-    image: "./assets/nabati-rolls.png",
-  },
-  {
-    id: "nabati-pasta",
-    name: "Nabati Pasta",
-    price: 13000,
-    image: "./assets/nabati-pasta.png",
-  },
-  {
-    id: "time-break",
-    name: "Time Break",
-    price: 17000,
-    image: "./assets/time-break.png",
-  },
-  {
-    id: "choco-chips",
-    name: "Choco Chips",
-    price: 9000,
-    image: "./assets/choco-chips.png",
-  },
-  {
-    id: "sereal-2in1",
-    name: "Sereal 2in1",
-    price: 18000,
-    image: "./assets/sereal-2in1.png",
+    image: "./assets/amo-spark.png",
   },
 ];
 
