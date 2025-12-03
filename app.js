@@ -9,13 +9,13 @@ const MENU_ITEMS = [
   {
     id: "paper-cup",
     name: "Paper Cup",
-    price: 7500,
+    price: 8000,
     image: "./assets/paper-cup.png",
   },
   {
     id: "plastik",
     name: "Plastik",
-    price: 7500,
+    price: 8000,
     image: "./assets/plastik.png",
   },
   {
